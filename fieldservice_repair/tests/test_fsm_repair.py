@@ -20,7 +20,7 @@ class TestFSMRepairCommon(TransactionCase):
         self.product1 = self.env["product.product"].create(
             {"name": "Product A", "type": "product"}
         )
-        self.lot1 = self.env["stock.production.lot"].create(
+        self.lot1 = self.env["stock.lot"].create(
             {
                 "name": "sn11",
                 "product_id": self.product1.id,
