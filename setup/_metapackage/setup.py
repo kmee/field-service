@@ -24,6 +24,7 @@ setuptools.setup(
         'odoo-addon-fieldservice_recurring>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_route>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_sale>=16.0dev,<16.1dev',
+        'odoo-addon-fieldservice_sale_recurring>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_size>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_skill>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_stage_validation>=16.0dev,<16.1dev',
