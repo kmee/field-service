@@ -22,6 +22,7 @@ setuptools.setup(
         'odoo-addon-fieldservice_portal>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_project>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_recurring>=16.0dev,<16.1dev',
+        'odoo-addon-fieldservice_repair>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_route>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_sale>=16.0dev,<16.1dev',
         'odoo-addon-fieldservice_sale_recurring>=16.0dev,<16.1dev',
