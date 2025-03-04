@@ -37,14 +37,17 @@ class FSMAccountCase(TransactionCase):
             {"name": "Test Loc Partner 2", "phone": "123", "email": "tlp@example.com"}
         )
         # create expected FSM Location to compare to converted FSM Location
-        cls.test_location = cls.env["fsm.location"].create(
-            {
-                "name": "Test Location",
-                "phone": "123",
-                "email": "tp@email.com",
-                "partner_id": cls.test_loc_partner.id,
-                "owner_id": cls.test_loc_partner.id,
-            }
+        cls.test_location = (
+            cls.env["fsm.location"]
+            .with_context(default_owner_id=cls.test_loc_partner.id)
+            .create(
+                {
+                    "name": "Test Location",
+                    "phone": "123",
+                    "email": "tp@email.com",
+                    "partner_id": cls.test_loc_partner.id,
+                }
+            )
         )
         cls.test_order = cls.env["fsm.order"].create(
             {
