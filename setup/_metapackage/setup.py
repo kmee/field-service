@@ -14,6 +14,7 @@ setuptools.setup(
         'odoo-addon-fieldservice_account_analytic>=15.0dev,<15.1dev',
         'odoo-addon-fieldservice_account_payment>=15.0dev,<15.1dev',
         'odoo-addon-fieldservice_activity>=15.0dev,<15.1dev',
+        'odoo-addon-fieldservice_availability>=15.0dev,<15.1dev',
         'odoo-addon-fieldservice_calendar>=15.0dev,<15.1dev',
         'odoo-addon-fieldservice_change_management>=15.0dev,<15.1dev',
         'odoo-addon-fieldservice_crm>=15.0dev,<15.1dev',
